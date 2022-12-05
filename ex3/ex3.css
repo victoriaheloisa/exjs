@@ -1,0 +1,12 @@
+div{
+    display: inline-block;
+    justify-content: flex-start;
+    background-color: rgb(245, 233, 220);
+}
+
+label{
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7%;
+    background-color: rgb(195, 202, 248);
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 300%;
+}
+
+button,input {
+    height: 50px;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    background-color: rgb(201, 200, 200);
+    color: rgb(17, 16, 16);
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+}

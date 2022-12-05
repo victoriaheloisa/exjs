@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    color: whitesmoke;
+    background-color: black;
+    font-size: 25px;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+
+}
+
+span{
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 0px 5px 5px 0px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color:whitesmoke;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: #575757a5;
+    border-radius: 5px 5px 5px 5px;
+    transition: .3s;
+}
+
+nav button.btn{
+    border: none;
+    background: #575757a5;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.container{
+    width: 100vh;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    transform: translateY(50%);
+    text-align: center;
+    color: #858484a5;
+}
+.container h1{
+    font-size: 70px;
+    background-color: #78777726;
+    font-stretch: extra-condensed;
+    border-radius: 40px;
+}
+
+.container p{
+    font-weight: 100;
+    line-height: 75px;
+    font-size: 20px;
+
+}
+
+.container button{
+    width: 150px;
+    padding: 15px 5px;
+    margin: 0px 10px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #575757a5;
+    background: transparent;
+    color: whitesmoke;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.container span{
+    background: #575757a5;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition:0.8s;
+}
+
+.container button:hover span{
+    width: 100%;
+
+}
+
+.container button:hover{
+    border: none;
+    
+}
+
+section.port{
+    background: #010101;
+}
+
+section.port .main h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: #858484a5;
+}   
+
+div.card:hover{
+    -webkit-transform: scale(-1.082);
+    -ms-transform: scale(-1.082);
+    transform: scale(1.082);
+    transition: 0.492s;
+    transition-delay: 0.094s;
+    z-index: 1;
+}
+
+a#exp{
+    transition: 1.8s;
+}
